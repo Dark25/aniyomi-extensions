@@ -146,7 +146,7 @@ class ANIMEWORLD : ConfigurableAnimeSource, ParsedAnimeHttpSource() {
                     listOf(Video(url, "AnimeWorld Server", url))
                 }
                 url.contains("https://doo") -> {
-                    DoodExtractor(client).videoFromUrl(url)
+                    DoodExtractor(client).videoFromUrl(url, redirect = true)
                         ?.let(::listOf)
                 }
                 url.contains("streamtape") -> {

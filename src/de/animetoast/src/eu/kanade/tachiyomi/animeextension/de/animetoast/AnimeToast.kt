@@ -166,6 +166,7 @@ class AnimeToast : ConfigurableAnimeSource, ParsedAnimeHttpSource() {
                                             DoodExtractor(client).videoFromUrl(
                                                 link,
                                                 quality,
+                                                false,
                                             )
                                         if (video != null) {
                                             videoList.add(video)
@@ -223,7 +224,7 @@ class AnimeToast : ConfigurableAnimeSource, ParsedAnimeHttpSource() {
                             ) == true -> {
                                 val quality = "DoodStream"
                                 val video =
-                                    DoodExtractor(client).videoFromUrl(link, quality)
+                                    DoodExtractor(client).videoFromUrl(link, quality, false)
                                 if (video != null) {
                                     videoList.add(video)
                                 }

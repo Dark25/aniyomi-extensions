@@ -1,7 +1,7 @@
 ext {
     extName = 'Vostfree'
     extClass = '.Vostfree'
-    extVersionCode = 20
+    extVersionCode = 19
 }
 
 apply from: "$rootDir/common.gradle"

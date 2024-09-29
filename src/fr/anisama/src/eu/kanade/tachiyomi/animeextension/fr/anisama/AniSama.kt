@@ -183,7 +183,7 @@ class AniSama : ParsedAnimeHttpSource(), ConfigurableAnimeSource {
     private val voeExtractor by lazy { VoeExtractor(client) }
     private val vidCdnExtractor by lazy { VidCdnExtractor(client) }
     private val doodExtractor by lazy { DoodExtractor(client) }
-    private val streamHideVidExtractor by lazy { StreamHideVidExtractor(client,headers) }
+    private val streamHideVidExtractor by lazy { StreamHideVidExtractor(client, headers) }
 
     override fun videoListRequest(episode: SEpisode) = GET(
         "$baseUrl${episode.url}",

@@ -167,7 +167,7 @@ open class Pelisplushd(override val name: String, override val baseUrl: String) 
     private val fastreamExtractor by lazy { FastreamExtractor(client, headers) }
     private val upstreamExtractor by lazy { UpstreamExtractor(client) }
     private val streamTapeExtractor by lazy { StreamTapeExtractor(client) }
-    private val streamHideVidExtractor by lazy { StreamHideVidExtractor(client,headers) }
+    private val streamHideVidExtractor by lazy { StreamHideVidExtractor(client, headers) }
     private val streamSilkExtractor by lazy { StreamSilkExtractor(client) }
     private val vidGuardExtractor by lazy { VidGuardExtractor(client) }
     private val universalExtractor by lazy { UniversalExtractor(client) }

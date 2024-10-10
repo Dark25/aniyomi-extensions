@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
     <application>
         <activity
-            android:name=".pt.anitube.AnitubeUrlActivity"
+            android:name=".all.animenexus.AnimeNexusUrlActivity"
             android:excludeFromRecents="true"
             android:exported="true"
             android:theme="@android:style/Theme.NoDisplay">
@@ -14,12 +13,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="anitube.vip"
-                    android:pathPattern="/..*/..*"
-                    android:scheme="https" />
-                <data
-                    android:host="www.anitube.vip"
-                    android:pathPattern="/..*/..*"
+                    android:host="anime.nexus"
+                    android:pathPattern="/anime/..*"
                     android:scheme="https" />
             </intent-filter>
         </activity>

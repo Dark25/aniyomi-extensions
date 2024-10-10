@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.animeextension.pt.anitube
+package eu.kanade.tachiyomi.animeextension.all.animenexus
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -8,10 +8,10 @@ import android.util.Log
 import kotlin.system.exitProcess
 
 /**
- * Springboard that accepts https://anitube.vip/<type>/<slug> intents
+ * Springboard that accepts https://anime.nexus/anime/<item> intents
  * and redirects them to the main Aniyomi process.
  */
-class AnitubeUrlActivity : Activity() {
+class AnimeNexusUrlActivity : Activity() {
 
     private val tag = javaClass.simpleName
 
@@ -19,11 +19,10 @@ class AnitubeUrlActivity : Activity() {
         super.onCreate(savedInstanceState)
         val pathSegments = intent?.data?.pathSegments
         if (pathSegments != null && pathSegments.size > 1) {
-            val searchQuery = "${pathSegments[0]}/${pathSegments[1]}"
-
+            val item = pathSegments[1]
             val mainIntent = Intent().apply {
                 action = "eu.kanade.tachiyomi.ANIMESEARCH"
-                putExtra("query", "${Anitube.PREFIX_SEARCH}$searchQuery")
+                putExtra("query", "${AnimeNexus.PREFIX_SEARCH}$item")
                 putExtra("filter", packageName)
             }
 

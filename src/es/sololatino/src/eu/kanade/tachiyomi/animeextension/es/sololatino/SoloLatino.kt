@@ -377,7 +377,7 @@ class SoloLatino : DooPlay(
                         else -> "tendencias"
                     },
 
-                    )
+                )
 
                 if (params.isInverted) append("&orden=asc")
             }

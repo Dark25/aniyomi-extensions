@@ -73,7 +73,7 @@ class Hentaila : ConfigurableAnimeSource, AnimeHttpSource() {
         }
     }
 
-    override fun popularAnimeRequest(page: Int) = GET("$baseUrl", headers)
+    override fun popularAnimeRequest(page: Int) = GET(baseUrl, headers)
 
     override fun popularAnimeParse(response: Response): AnimesPage {
         val document = response.asJsoup()
@@ -88,7 +88,7 @@ class Hentaila : ConfigurableAnimeSource, AnimeHttpSource() {
         return AnimesPage(animes, false)
     }
 
-    override fun latestUpdatesRequest(page: Int) = GET("$baseUrl", headers)
+    override fun latestUpdatesRequest(page: Int) = GET(baseUrl, headers)
 
     override fun latestUpdatesParse(response: Response): AnimesPage {
         val document = response.asJsoup()

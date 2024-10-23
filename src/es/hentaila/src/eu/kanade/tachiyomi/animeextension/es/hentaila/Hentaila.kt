@@ -39,7 +39,7 @@ class Hentaila : ConfigurableAnimeSource, AnimeHttpSource() {
 
     override val name = "Hentaila"
 
-    override val baseUrl = "https://www4.hentaila.com"
+    override val baseUrl = "https://www5.hentaila.com"
 
     override val lang = "es"
 
@@ -89,7 +89,8 @@ class Hentaila : ConfigurableAnimeSource, AnimeHttpSource() {
         return AnimesPage(animeList, nextPage)
     }
 
-    override fun latestUpdatesRequest(page: Int) = GET("$baseUrl/directorio?filter=recent&p=$page", headers)
+// /directorio?filter=recent&p=$page
+    override fun latestUpdatesRequest(page: Int) = GET("$baseUrl", headers)
 
     override fun latestUpdatesParse(response: Response) = popularAnimeParse(response)
 

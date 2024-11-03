@@ -36,9 +36,7 @@ object DeTodoPeliculasFilters {
 
     data class FilterSearchParams(
         val isInverted: Boolean = false,
-        val type: String = "",
         val genre: String = "",
-        val platform: String = "",
         val year: String = "",
     )
 

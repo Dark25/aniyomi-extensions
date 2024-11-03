@@ -1,6 +1,5 @@
 package eu.kanade.tachiyomi.animeextension.es.detodopeliculas
 
-import android.util.Log
 import androidx.preference.ListPreference
 import androidx.preference.PreferenceScreen
 import eu.kanade.tachiyomi.animesource.model.AnimeFilterList

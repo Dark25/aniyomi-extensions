@@ -406,10 +406,10 @@
   {
     "name": "Aniyomi: Torrentio (Torrent / Debrid)",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.torrentio",
-    "apk": "aniyomi-all.torrentio-v14.1.apk",
+    "apk": "aniyomi-all.torrentio-v14.2.apk",
     "lang": "all",
-    "code": 1,
-    "version": "14.1",
+    "code": 2,
+    "version": "14.2",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -426,10 +426,10 @@
   {
     "name": "Aniyomi: Torrentio Anime (Torrent / Debrid)",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.torrentioanime",
-    "apk": "aniyomi-all.torrentioanime-v14.9.apk",
+    "apk": "aniyomi-all.torrentioanime-v14.11.apk",
     "lang": "all",
-    "code": 9,
-    "version": "14.9",
+    "code": 11,
+    "version": "14.11",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -1426,10 +1426,10 @@
   {
     "name": "Aniyomi: AniPlay",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.aniplay",
-    "apk": "aniyomi-en.aniplay-v14.9.apk",
+    "apk": "aniyomi-en.aniplay-v14.11.apk",
     "lang": "en",
-    "code": 9,
-    "version": "14.9",
+    "code": 11,
+    "version": "14.11",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -1566,10 +1566,10 @@
   {
     "name": "Aniyomi: DramaCool",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.dramacool",
-    "apk": "aniyomi-en.dramacool-v14.53.apk",
+    "apk": "aniyomi-en.dramacool-v14.54.apk",
     "lang": "en",
-    "code": 53,
-    "version": "14.53",
+    "code": 54,
+    "version": "14.54",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -1578,7 +1578,7 @@
         "name": "DramaCool",
         "lang": "en",
         "id": "76017545488916387",
-        "baseUrl": "https://asianc.sh/",
+        "baseUrl": "https://asianc.co/",
         "versionId": 1
       }
     ]
@@ -4734,26 +4734,6 @@
         "lang": "pt-BR",
         "id": "9212086076543778498",
         "baseUrl": "https://rine.cloud",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: Vizer.tv",
-    "pkg": "eu.kanade.tachiyomi.animeextension.pt.vizer",
-    "apk": "aniyomi-pt.vizer-v14.18.apk",
-    "lang": "pt-BR",
-    "code": 18,
-    "version": "14.18",
-    "nsfw": 1,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "sources": [
-      {
-        "name": "Vizer.tv",
-        "lang": "pt-BR",
-        "id": "6953989216416223241",
-        "baseUrl": "https://novizer.com",
         "versionId": 1
       }
     ]

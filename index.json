@@ -1526,10 +1526,10 @@
   {
     "name": "Aniyomi: DonghuaStream",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.donghuastream",
-    "apk": "aniyomi-en.donghuastream-v14.11.apk",
+    "apk": "aniyomi-en.donghuastream-v14.12.apk",
     "lang": "en",
-    "code": 11,
-    "version": "14.11",
+    "code": 12,
+    "version": "14.12",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -1538,7 +1538,7 @@
         "name": "DonghuaStream",
         "lang": "en",
         "id": "5750955808412743706",
-        "baseUrl": "https://donghuastream.co.in",
+        "baseUrl": "https://donghuastream.org",
         "versionId": 1
       }
     ]
@@ -2913,10 +2913,10 @@
   {
     "name": "Aniyomi: HomeCine",
     "pkg": "eu.kanade.tachiyomi.animeextension.es.homecine",
-    "apk": "aniyomi-es.homecine-v14.2.apk",
+    "apk": "aniyomi-es.homecine-v14.3.apk",
     "lang": "es",
-    "code": 2,
-    "version": "14.2",
+    "code": 3,
+    "version": "14.3",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -2925,7 +2925,7 @@
         "name": "HomeCine",
         "lang": "es",
         "id": "4683784015054845419",
-        "baseUrl": "https://www3.homecine.tv",
+        "baseUrl": "https://homecine.cc",
         "versionId": 1
       }
     ]
@@ -3053,10 +3053,10 @@
   {
     "name": "Aniyomi: MetroSeries",
     "pkg": "eu.kanade.tachiyomi.animeextension.es.metroseries",
-    "apk": "aniyomi-es.metroseries-v14.14.apk",
+    "apk": "aniyomi-es.metroseries-v14.15.apk",
     "lang": "es",
-    "code": 14,
-    "version": "14.14",
+    "code": 15,
+    "version": "14.15",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -3065,7 +3065,7 @@
         "name": "MetroSeries",
         "lang": "es",
         "id": "302544302370133084",
-        "baseUrl": "https://metroseries.net",
+        "baseUrl": "https://www3.seriesmetro.net",
         "versionId": 1
       }
     ]
@@ -3180,10 +3180,10 @@
   {
     "name": "Aniyomi: PelisForte",
     "pkg": "eu.kanade.tachiyomi.animeextension.es.pelisforte",
-    "apk": "aniyomi-es.pelisforte-v14.25.apk",
+    "apk": "aniyomi-es.pelisforte-v14.26.apk",
     "lang": "es",
-    "code": 25,
-    "version": "14.25",
+    "code": 26,
+    "version": "14.26",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -4301,10 +4301,10 @@
   {
     "name": "Aniyomi: Bakashi",
     "pkg": "eu.kanade.tachiyomi.animeextension.pt.animesgratis",
-    "apk": "aniyomi-pt.animesgratis-v14.15.apk",
+    "apk": "aniyomi-pt.animesgratis-v14.16.apk",
     "lang": "pt-BR",
-    "code": 15,
-    "version": "14.15",
+    "code": 16,
+    "version": "14.16",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -4313,7 +4313,7 @@
         "name": "Bakashi",
         "lang": "pt-BR",
         "id": "2969482460524685571",
-        "baseUrl": "https://bakashi.tv",
+        "baseUrl": "https://bakashi.net",
         "versionId": 1
       }
     ]

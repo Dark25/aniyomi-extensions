@@ -148,7 +148,7 @@ class Anime4Up : ConfigurableAnimeSource, ParsedAnimeHttpSource() {
         val name: String,
         val link: String,
         val order: String,
-        val icon: Boolean
+        val icon: Boolean,
     )
 
     override fun videoListParse(response: Response): List<Video> {
@@ -179,7 +179,7 @@ class Anime4Up : ConfigurableAnimeSource, ParsedAnimeHttpSource() {
         val qualities = Qualities(
             fhd = parsedFhd.associate { it.name to it.link },
             hd = parsedHd.associate { it.name to it.link },
-            sd = parsedSd.associate { it.name to it.link }
+            sd = parsedSd.associate { it.name to it.link },
         )
 
         // Use the same logic as the old implementation

@@ -98,10 +98,10 @@
   {
     "name": "Aniyomi: AnimeXin",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.animexin",
-    "apk": "aniyomi-all.animexin-v14.14.apk",
+    "apk": "aniyomi-all.animexin-v14.15.apk",
     "lang": "all",
-    "code": 14,
-    "version": "14.14",
+    "code": 15,
+    "version": "14.15",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -110,7 +110,7 @@
         "name": "AnimeXin",
         "lang": "all",
         "id": "4620219025406449669",
-        "baseUrl": "https://animexin.vip",
+        "baseUrl": "https://animexin.dev",
         "versionId": 1
       }
     ]

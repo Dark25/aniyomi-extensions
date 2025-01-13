@@ -2971,6 +2971,26 @@
     ]
   },
   {
+    "name": "Aniyomi: Katanime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.es.katanime",
+    "apk": "aniyomi-es.katanime-v14.1.apk",
+    "lang": "es",
+    "code": 1,
+    "version": "14.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Katanime",
+        "lang": "es",
+        "id": "2564532783405004779",
+        "baseUrl": "https://katanime.net",
+        "versionId": 1
+      }
+    ]
+  },
+  {
     "name": "Aniyomi: LACartoons",
     "pkg": "eu.kanade.tachiyomi.animeextension.es.lacartoons",
     "apk": "aniyomi-es.lacartoons-v14.8.apk",

@@ -4239,6 +4239,26 @@
     ]
   },
   {
+    "name": "Aniyomi: AnimesBr",
+    "pkg": "eu.kanade.tachiyomi.animeextension.pt.animesbr",
+    "apk": "aniyomi-pt.animesbr-v14.3.apk",
+    "lang": "pt-BR",
+    "code": 3,
+    "version": "14.3",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Animes BR",
+        "lang": "pt-BR",
+        "id": "3000709501394043899",
+        "baseUrl": "https://animesbr.tv",
+        "versionId": 1
+      }
+    ]
+  },
+  {
     "name": "Aniyomi: Animes CX",
     "pkg": "eu.kanade.tachiyomi.animeextension.pt.animescx",
     "apk": "aniyomi-pt.animescx-v14.2.apk",
@@ -4274,6 +4294,26 @@
         "lang": "pt-BR",
         "id": "4877286181768246205",
         "baseUrl": "https://animesdigital.org",
+        "versionId": 1
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AnimesDrive",
+    "pkg": "eu.kanade.tachiyomi.animeextension.pt.animesdrive",
+    "apk": "aniyomi-pt.animesdrive-v14.3.apk",
+    "lang": "pt-BR",
+    "code": 3,
+    "version": "14.3",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Animes Drive",
+        "lang": "pt-BR",
+        "id": "6170414613821552199",
+        "baseUrl": "https://animesdrive.blog",
         "versionId": 1
       }
     ]

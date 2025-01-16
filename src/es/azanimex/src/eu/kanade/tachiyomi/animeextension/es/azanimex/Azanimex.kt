@@ -74,7 +74,6 @@ class Azanimex : ParsedAnimeHttpSource() {
 
         val url1 = updatedUrl.substringAfter("https://").substringBefore("/")
 
-
         val apiUrl = "https://$url1/api?path=$path"
 
         val apiResponse = client.newCall(
@@ -118,8 +117,6 @@ class Azanimex : ParsedAnimeHttpSource() {
 
             result.folder?.value?.forEach { file ->
                 if (file.name.endsWith(".mp4")) {
-                    val animeurl = "https://$url1/api/raw/?path=$path/${file.name}"
-
                     val episode = SEpisode.create().apply {
                         val fileUrl = URLEncoder.encode(file.name, "UTF-8")
                         val animeurl = "https://$url1/api/raw/?path=$path/$fileUrl"
@@ -134,18 +131,16 @@ class Azanimex : ParsedAnimeHttpSource() {
                     episodes.add(episode)
                 }
             }
-            episodes.sortedByDescending { it.episode_number }
+            episodes.sortedByDescending { it.name }
         } catch (e: Exception) {
             throw Exception("Error al procesar los episodios: ${e.message}, Respuesta JSON: ")
         }
     }
 
-
     private fun parseEpisodeNumber(filename: String): Float {
         val regex = Regex("""-(\d+)\s*\[""")
         return regex.find(filename)?.groupValues?.get(1)?.toFloatOrNull() ?: 0f
     }
-
 
     private fun updateDomainInUrl(url: String): String {
         return when {

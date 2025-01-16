@@ -2584,6 +2584,26 @@
     ]
   },
   {
+    "name": "Aniyomi: az-animex",
+    "pkg": "eu.kanade.tachiyomi.animeextension.es.azanimex",
+    "apk": "aniyomi-es.azanimex-v14.1.apk",
+    "lang": "es",
+    "code": 1,
+    "version": "14.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "az-animex",
+        "lang": "es",
+        "id": "7735188894368809510",
+        "baseUrl": "https://www.az-animex.com",
+        "versionId": 1
+      }
+    ]
+  },
+  {
     "name": "Aniyomi: BeatZ Anime",
     "pkg": "eu.kanade.tachiyomi.animeextension.es.beatzanime",
     "apk": "aniyomi-es.beatzanime-v14.1.apk",

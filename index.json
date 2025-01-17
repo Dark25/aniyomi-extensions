@@ -118,10 +118,10 @@
   {
     "name": "Aniyomi: AniZone",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.anizone",
-    "apk": "aniyomi-all.anizone-v14.4.apk",
+    "apk": "aniyomi-all.anizone-v14.5.apk",
     "lang": "all",
-    "code": 4,
-    "version": "14.4",
+    "code": 5,
+    "version": "14.5",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -332,10 +332,10 @@
   {
     "name": "Aniyomi: MissAV",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.missav",
-    "apk": "aniyomi-all.missav-v14.13.apk",
+    "apk": "aniyomi-all.missav-v14.14.apk",
     "lang": "all",
-    "code": 13,
-    "version": "14.13",
+    "code": 14,
+    "version": "14.14",
     "nsfw": 1,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -344,7 +344,7 @@
         "name": "MissAV",
         "lang": "all",
         "id": "168969881246615628",
-        "baseUrl": "https://missav.com",
+        "baseUrl": "https://missav.ai",
         "versionId": 1
       }
     ]
@@ -1346,10 +1346,10 @@
   {
     "name": "Aniyomi: AnimePahe",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.animepahe",
-    "apk": "aniyomi-en.animepahe-v14.27.apk",
+    "apk": "aniyomi-en.animepahe-v14.28.apk",
     "lang": "en",
-    "code": 27,
-    "version": "14.27",
+    "code": 28,
+    "version": "14.28",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -5068,10 +5068,10 @@
   {
     "name": "Aniyomi: TR Anime Izle",
     "pkg": "eu.kanade.tachiyomi.animeextension.tr.tranimeizle",
-    "apk": "aniyomi-tr.tranimeizle-v14.20.apk",
+    "apk": "aniyomi-tr.tranimeizle-v14.21.apk",
     "lang": "tr",
-    "code": 20,
-    "version": "14.20",
+    "code": 21,
+    "version": "14.21",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -5080,7 +5080,7 @@
         "name": "TR Anime Izle",
         "lang": "tr",
         "id": "2607995207802293539",
-        "baseUrl": "https://www.tranimeizle.co",
+        "baseUrl": "https://www.tranimeizle.top",
         "versionId": 1
       }
     ]

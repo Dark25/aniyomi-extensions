@@ -1426,10 +1426,10 @@
   {
     "name": "Aniyomi: AniPlay",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.aniplay",
-    "apk": "aniyomi-en.aniplay-v14.12.apk",
+    "apk": "aniyomi-en.aniplay-v14.13.apk",
     "lang": "en",
-    "code": 12,
-    "version": "14.12",
+    "code": 13,
+    "version": "14.13",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -1459,26 +1459,6 @@
         "lang": "en",
         "id": "5831315710159126556",
         "baseUrl": "https://asiaflix.app",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: AsianLoad",
-    "pkg": "eu.kanade.tachiyomi.animeextension.en.asianload",
-    "apk": "aniyomi-en.asianload-v14.46.apk",
-    "lang": "en",
-    "code": 46,
-    "version": "14.46",
-    "nsfw": 0,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "sources": [
-      {
-        "name": "AsianLoad",
-        "lang": "en",
-        "id": "2063258341485460293",
-        "baseUrl": "https://draplay.info",
         "versionId": 1
       }
     ]
@@ -3961,10 +3941,10 @@
   {
     "name": "Aniyomi: Anime Saturn",
     "pkg": "eu.kanade.tachiyomi.animeextension.it.animesaturn",
-    "apk": "aniyomi-it.animesaturn-v14.8.apk",
+    "apk": "aniyomi-it.animesaturn-v14.9.apk",
     "lang": "it",
-    "code": 8,
-    "version": "14.8",
+    "code": 9,
+    "version": "14.9",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -3973,7 +3953,7 @@
         "name": "AnimeSaturn",
         "lang": "it",
         "id": "1863212142777957799",
-        "baseUrl": "https://animesaturn.in",
+        "baseUrl": "https://anisaturn.com",
         "versionId": 1
       }
     ]
@@ -4001,10 +3981,10 @@
   {
     "name": "Aniyomi: ANIMEWORLD.tv",
     "pkg": "eu.kanade.tachiyomi.animeextension.it.animeworld",
-    "apk": "aniyomi-it.animeworld-v14.44.apk",
+    "apk": "aniyomi-it.animeworld-v14.45.apk",
     "lang": "it",
-    "code": 44,
-    "version": "14.44",
+    "code": 45,
+    "version": "14.45",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,

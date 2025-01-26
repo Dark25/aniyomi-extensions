@@ -241,8 +241,10 @@ class AnimeSaturn : ConfigurableAnimeSource, ParsedAnimeHttpSource() {
             }
             description2 == null -> {
                 anime.description = description1
-            } description1.length > description2.length -> {
-            anime.description = description1
+            }
+
+            description1.length > description2.length -> {
+                anime.description = description1
         }
 
             else -> {
